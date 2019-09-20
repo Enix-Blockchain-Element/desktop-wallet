@@ -148,10 +148,10 @@ ipcMain.on("deleteBlockchainData", (event, arg) => {
   function getBlockchainDataLocation() {
     switch (os.type()) {
       case "Darwin":
-        return path.join(os.homedir(), "Library", "Ether1", "geth");
+        return path.join(os.homedir(), "Library", "ENIX", "geth");
         break;
       default:
-        return path.join(process.env.APPDATA, "Ether1", "geth");
+        return path.join(process.env.APPDATA, "ENIX", "geth");
     }
   }
 

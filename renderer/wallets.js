@@ -4,8 +4,8 @@ class Wallets {
   constructor() {
     this.addressList = [];
 
-    $.getJSON("https://min-api.cryptocompare.com/data/price?fsym=ETHO&tsyms=USD", function (price) {
-      EthoWallets._setPrice(price.USD);
+    $.getJSON("https://api.coingecko.com/api/v3/coins/invacio?sparkline=true", function (price) {
+      EthoWallets._setPrice(price.market_data.current_price.usd);
     });
   }
 
@@ -114,7 +114,7 @@ class Wallets {
       $(document).trigger("render_wallets");
       EthoWallets.enableButtonTooltips();
 
-      $("#labelSumDollars").html(vsprintf("/ %.2f $ / %.4f $ per ETHO", [
+      $("#labelSumDollars").html(vsprintf("/ %.2f $ / %.4f $ per ENIX", [
         data.sumBalance * EthoWallets._getPrice(),
         EthoWallets._getPrice()
       ]));

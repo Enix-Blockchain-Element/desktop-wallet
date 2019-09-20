@@ -1,7 +1,7 @@
 {
-  "name": "Ether1Wallet",
-  "version": "0.3.2",
-  "description": "Desktop wallet for Ether-1 ($ETHO)",
+  "name": "EnixWallet",
+  "version": "1.0.0",
+  "description": "Desktop wallet for ENIX ($ENIX)",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -11,7 +11,7 @@
     "dist-osx": "build --platform=mac --arch=x64"
   },
   "build": {
-    "appId": "Ether1DesktopWallet",
+    "appId": "Enix Desktop Wallet",
     "files": [
       "modules/*",
       "assets/**/*",
@@ -45,13 +45,13 @@
       ]
     }
   },
-  "repository": "https://github.com/taeguscromis/Ether1DesktopWallet",
+  "repository": "https://github.com/Enix-Blockchain-Element/desktop-wallet",
   "keywords": [
-    "Ether1",
+    "Enix",
     "Desktop",
     "Wallet"
   ],
-  "author": "Ether1",
+  "author": "Fallen Gravity",
   "license": "CC0-1.0",
   "dependencies": {
     "@unibeautify/beautifier-js-beautify": "^0.4.0",
@@ -59,7 +59,7 @@
     "app-root-path": "^2.1.0",
     "electron-storage": "^1.0.7",
     "fs-extra": "^7.0.1",
-    "handlebars": "^4.1.2",
+    "handlebars": ">=4.1.2",
     "moment": "^2.23.0",
     "nedb": "^1.8.0",
     "single-instance": "0.0.1"
