@@ -12,6 +12,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 # Clone this repository
 git clone https://github.com/Enix-Blockchain-Element/desktop-wallet
 # Go into the repository
+**IF ERROR [ cb() never called! ] appears then within same directory - run [ sudo chown -R $(whoami) ~/.npm ]**
 cd desktop-wallet
 # Install dependencies
 npm install
