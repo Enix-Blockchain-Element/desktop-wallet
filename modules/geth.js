@@ -62,7 +62,7 @@ class Geth {
         "--wsapi",
         "admin,db,eth,net,miner,personal,web3",
         "--networkid",
-        "413",
+        "418",
         "--allow-insecure-unlock"
       ]);
 
