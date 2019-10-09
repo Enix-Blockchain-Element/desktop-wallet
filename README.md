@@ -26,6 +26,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 - mac OSX https://github.com/Enix-Blockchain-Element/desktop-wallet/releases/download/v1.0.0/EnixWallet-V1.0.0-macOS.zip
 - Linux https://github.com/Enix-Blockchain-Element/desktop-wallet/releases/download/v1.0.0/EnixWallet-V1.0.0-Linux.zip
+- Windows https://github.com/Enix-Blockchain-Element/desktop-wallet/releases/download/v1.0.0/EnixWallet-V1.0.0-Windows.zip
 
 ## Web Wallet (MEW Clone) 
 
