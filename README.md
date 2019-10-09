@@ -22,6 +22,15 @@ npm start
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
+## IF Error or not Syncing  (Mac)
+
+Quit the program (assuming you copied this to applications foler) and then run 
+
+
+/Applications/"Enix Wallet.app"/Contents/Resources/bin/macos/geth --ws --wsorigins "*" --wsaddr 127.0.0.1 --wsport 8549 --port 30307 --wsapi "admin,db,eth,net,miner,personal,web3" --networkid 418 --syncmode fast
+
+If this fails to action, then reboot device and re-run above.
+
 ## Downloadable Wallet Excutables
 
 - mac OSX https://github.com/Enix-Blockchain-Element/desktop-wallet/releases/download/v1.0.0/EnixWallet-V1.0.0-macOS.zip
