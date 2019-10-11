@@ -54,7 +54,7 @@ If this fails to action, then reboot device and re-run above.
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
 
-## TON
+## ENIX Wallet
 
 OpenSource Enix Wallet
 Terms of Notice
