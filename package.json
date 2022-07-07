@@ -60,7 +60,7 @@
     "electron-storage": "^1.0.7",
     "fs-extra": "^7.0.1",
     "handlebars": "^4.4.2",
-    "moment": "^2.23.0",
+    "moment": "^2.29.4",
     "nedb": "^1.8.0",
     "single-instance": "0.0.1"
   },
